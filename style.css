@@ -1,0 +1,159 @@
+header{
+    font-size: 13px;
+    text-align:left;
+    font-family: monospace;
+    color: #039be5;
+    margin: 5px;
+    padding: 1px;
+  }
+
+body > section.preguntas div.row{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 30px;
+    display: flex;
+    margin-bottom: 1em;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+
+.pregunta_1{  
+color:#fdd835;
+}
+
+.pregunta_2{
+color: #6a1b9a;
+}
+.pregunta_3{
+color:#fb8c00;
+}
+.pregunta_4{
+color:#7cb342;
+}
+.pregunta_5{
+color:#01579b;
+}
+.pregunta_6{
+color:#80deea  ;
+}
+.pregunta_7{
+color:#b388ff;
+}
+.pregunta_8{
+color: #e3f2fd;
+}
+.pregunta_9{
+color:#d4e157;
+}
+.pregunta_10{
+color:#a1887f;
+}
+.pregunta_11{
+color:#bdbdbd;
+}   
+.pregunta_12{
+color:#9575cd;
+}
+
+.pregunta_13{
+color:#b71c1c;
+}
+
+#contenedor-carrusel{
+    float: right;
+    margin-right: 10px;
+    position: relative;
+     animation: rotar 10s infinite linear;
+    transform-style:preserve-3d;
+}
+
+#contenedor-carrusel figure{
+    position: absolute;
+    right: 80px;
+    margin-top: 300px;
+}
+
+#contenedor-carrusel figure:nth-child(1){
+    transform: rotateX(0deg) translateZ(180px);
+}
+
+#contenedor-carrusel figure:nth-child(2){
+    transform: rotateX(40deg) translateZ(180px);
+}
+
+#contenedor-carrusel figure:nth-child(3){
+    transform: rotateX(80deg) translateZ(180px);
+}
+
+#contenedor-carrusel figure:nth-child(4){
+    transform: rotateX(120deg) translateZ(180px);
+}
+
+#contenedor-carrusel figure:nth-child(5){
+    transform: rotateX(160deg) translateZ(180px);
+}
+
+#contenedor-carrusel figure:nth-child(6){
+    transform: rotateX(200deg) translateZ(180px);
+}
+
+#contenedor-carrusel figure:nth-child(7){
+    transform: rotateX(240deg) translateZ(180px);
+}
+
+#contenedor-carrusel figure:nth-child(8){
+    transform: rotateX(280deg) translateZ(180px);
+}
+
+#contenedor-carrusel figure:nth-child(9){
+    transform: rotateX(320deg) translateZ(180px);
+}
+
+#contenedor-carrusel figure:nth-child(10){
+    transform: rotateX(360deg) translateZ(180px);
+}
+
+@keyframes rotar{
+ from{transform: rotateX(0deg);}
+     to{transform: rotateX(100deg);}
+}
+
+#pagos{
+    display: inline-block;
+    float: left;
+}
+
+.envio{
+    float: right;
+}
+
+h2 {
+    font-family: bombing;
+}
+
+section.slider {
+display: inline-block;
+
+}
+
+.contenedor-imagenes{
+display: inline-block;
+margin-top: 3px;
+color: orange;
+column-gap:0;
+}
+
+#canales{
+font-family:LemonYellowSun;
+text-align: center;
+}
+
+#videos{
+   clear: both;
+   display: inline-block;
+   text-align: center;
+   color: rgba(0, 0, 0, 0.87);
+   
+}
