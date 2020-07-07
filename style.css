@@ -1,5 +1,5 @@
 header{
-    font-size: 13px;
+    font-size: 15px;
     text-align:left;
     font-family: monospace;
     color: #039be5;
@@ -150,10 +150,11 @@ font-family:LemonYellowSun;
 text-align: center;
 }
 
-#videos{
-   clear: both;
+div#section-videos.row.section{
+  
    display: inline-block;
-   text-align: center;
+  grid-gap: 20px;
    color: rgba(0, 0, 0, 0.87);
+   
    
 }
