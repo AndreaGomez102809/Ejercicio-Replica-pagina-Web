@@ -7,17 +7,16 @@ header{
     padding: 1px;
   }
 
-body > section.preguntas div.row{
-    font-family: 'Balsamiq Sans', cursive;
-    font-size: 30px;
-    display: flex;
-    margin-bottom: 1em;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    float: left;
+section.preguntas div.row{
+font-family: 'Balsamiq Sans', cursive;
+font-size: 30px;
+display: flex;
+margin-bottom: 1em;
+margin-left: auto;
+margin-right: auto;
+float: left;
+max-width: 1000px;
 }
-
 
 .pregunta_1{  
 color:#fdd835;
@@ -59,6 +58,22 @@ color:#9575cd;
 
 .pregunta_13{
 color:#b71c1c;
+}
+
+#carrusel{
+    justify-content: end;
+    height: 100px;
+}
+
+.carrusel_inicial{
+float: right;
+width: 210px;
+padding: 100px;
+margin: auto;
+
+position: static;
+margin-top: 150px;
+transform: rotate(0deg);
 }
 
 #contenedor-carrusel{
@@ -120,9 +135,18 @@ color:#b71c1c;
      to{transform: rotateX(100deg);}
 }
 
+#fondo_section{
+background-image: url(fondo.jpg);
+height: 500px;
+width: auto;
+margin: 0;
+padding: 0;
+}
+
 #pagos{
-    display: inline-block;
-    float: left;
+display: inline-block;
+float: left;
+
 }
 
 .envio{
@@ -130,18 +154,49 @@ color:#b71c1c;
 }
 
 h2 {
-    font-family: bombing;
+font-family: bombing;
+color: blanchedalmond;
+font-size: 50px;
 }
 
-section.slider {
-display: inline-block;
+.contenerdor_slider{
 
 }
 
-.contenedor-imagenes{
+#reloj_section{
+margin: 0;
+padding: 2em;
+color: #16265d;
+background: #ffe076;
+border-bottom: 10px solid orange;
+}
+
+#reloj_section p:first-child{
+margin: 0;
+font-size: 40px;
+font-family: LemonYellowSun;
+text-align: center;
+line-height: 1em;
+}
+
+#reloj_container{
+display: flex;
+
+justify-content: space-around;
+}
+
+#reloj_container .reloj{
+Display: flex;
+}
+
+#reloj_container .reloj p{
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+ }
+
+.contenedor-imagenes .niñas{
 display: inline-block;
-margin-top: 3px;
-color: orange;
 column-gap:0;
 }
 
@@ -150,11 +205,8 @@ font-family:LemonYellowSun;
 text-align: center;
 }
 
-div#section-videos.row.section{
-  
-   display: inline-block;
-  grid-gap: 20px;
-   color: rgba(0, 0, 0, 0.87);
-   
-   
+#section-videos{
+display:inline-block;
+
+      
 }
